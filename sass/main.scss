@@ -1,0 +1,20 @@
+/**
+ * Main Styles for site.
+ */
+
+// sass main.scss ../style.min.css --style=compressed
+// sass --watch main.scss:../style.min.css --style=compressed
+
+$theme-blue : #0066ff;
+$theme-black: #333333;
+$theme-green: #c1edcc;
+$theme-pink : #f5beae;
+
+$breakpoint-tablet  : 768px;
+$breakpoint-desktop : 1040px;
+
+@import "normalize";
+@import "fonts";
+@import "skeleton";
+@import "header";
+@import "footer";
